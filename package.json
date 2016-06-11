@@ -1,0 +1,24 @@
+{
+  "name": "docker-ci-example",
+  "version": "1.0.0",
+  "description": "Example of Docker Cloud based CI.",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start server.js --no-daemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcusstenbeck/docker-ci-example.git"
+  },
+  "author": "Marcus Stenbeck <marcus.stenbeck@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcusstenbeck/docker-ci-example/issues"
+  },
+  "homepage": "https://github.com/marcusstenbeck/docker-ci-example#readme",
+  "dependencies": {
+    "koa": "1.2.0",
+    "pm2": "1.1.3"
+  }
+}
